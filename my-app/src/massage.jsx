@@ -2,8 +2,8 @@ import './App.css';
 
 function Massage(props) {
   return (
-    <div className="comment">
-      Комментарий: {props.comment}
+    <div className="user">
+      Hello <span>{props.user}</span> !!!!
     </div>
   );
 }

@@ -1,0 +1,30 @@
+.user span {
+    color: orange;
+  }
+  .commentForm {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 40px;
+    color: white;
+  }
+  .comment span {
+    position: absolute;
+    font-size: 10px;
+    padding: 2px;
+    border-radius: 10%;
+    bottom: 0;
+    left: 1%;
+    color: lightblue;
+    z-index: 999;
+  }
+  .commentBtn {
+    background-color: #282c34;
+    outline: none;
+    border: none;
+    border: 2px solid #1976d2;
+    border-radius: 0 5px 5px 0;
+  }
+  .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+    color: white !important;
+  }

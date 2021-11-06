@@ -1,0 +1,6 @@
+.menu_list {
+    display: flex;
+}
+.list_item {
+    margin: 10px;
+}
